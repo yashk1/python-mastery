@@ -16,6 +16,8 @@ def portfolio_cost(filename):
                 print("Couldn't parse:", repr(line))
                 print("Reason:", e)
 
-    print(total_sum)
+    return (total_sum)
 
-portfolio_cost('../../Data/portfolio2.dat')#
+
+if __name__ == '__main__':
+    print(portfolio_cost('../../Data/portfolio.dat'))
