@@ -18,4 +18,4 @@ def portfolio_cost(filename):
 
     print(total_sum)
 
-portfolio_cost('../../Data/portfolio2.dat')
+portfolio_cost('../../Data/portfolio2.dat')#
